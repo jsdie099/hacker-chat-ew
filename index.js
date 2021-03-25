@@ -1,5 +1,32 @@
+#!/usr/bin/env node
+//define o caminho do node
+
 /*
-    //npm run user01 (est� no json)
+    chmod +x index.js
+*/
+//define a permissão 
+/*
+dar a opção de mais formas de executar
+bash node index.js
+bash ./index.js
+*/
+/*
+    -- para colocar projeto no npm como pacote:
+        npm login
+        npm publish --access public
+    --pra tirar esse comando do global: npm unlink -g @julianop099/hacker-chat-client
+    -- para tirar o projeto de produção: npm unpublish --force
+    hacker-chat \
+    --username juliano \
+    --room sala01 \
+*/
+/*
+    ./index.js \
+    --username juliano \
+    --room sala01 \
+*/
+/*
+    //npm run user01 (está no json)
     (cola tudo junto no terminal)
     node index.js \
     --username juliano \

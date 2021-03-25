@@ -1,9 +1,12 @@
 {
-  "name": "src",
+  "name": "@julianop099/hacker-chat-client",
   "version": "1.0.0",
-  "description": "",
+  "description": "curso erick wendeç",
   "main": "index.js",
   "type": "module",
+  "bin": {
+    "hacker-chat": "index.js"
+  },
   "scripts": {
     "user01": "node index.js --username juliano --room sala01 --hostUri http://localhost:9898",
     "user02": "node index.js --username joao --room sala01 --hostUri http://localhost:9898",
